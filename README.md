@@ -7,7 +7,7 @@ this is only for clicker simulator. I will be making other autoGrinding for othe
 
 _G.autoTap = true;
 while _G.autoTap = true do
-remotePath = game:GameService("replicated storage).Aero.AeroRemoteServices.ClickService.Click:FireServer(unpack(args))
+remotePath = game:GameService("replicated storage").Aero.AeroRemoteServices.ClickService.Click:FireServer(unpack(args))
 spawn(function()
 while autoTap == true do
 local args = {[1] = 1}
